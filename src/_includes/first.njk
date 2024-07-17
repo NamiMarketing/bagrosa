@@ -106,7 +106,34 @@
       <h3>NOSSOS PRODUTOS</h3>
       <h2>A escolha ideal pro seu negócio</h2>
     </div>
-    
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/slider/gato.jpg" alt="">
+          <span>Nome do produto</span>
+        </div>
+      </div>
+    </div>
     <p>
       Produzimos diversos tamanhos de sacolas personalizadas, além da
       possibilidade de produzir todo o enxoval de papelaria que acompanha
@@ -114,3 +141,14 @@
     </p>
     <button class="BlueButton">Entrar em contato!</button>
   </section>
+
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 15,
+      slidesPerView: "auto",
+       pagination: {
+        el: '.swiper-pagination',
+      },
+  
+    });
+  </script>
