@@ -1,0 +1,28 @@
+---
+title: BAGROSA
+layout: "base.njk"
+cssPath: "/css/home.css"
+---
+
+{% include 'first.njk' %}
+{% include 'second.njk' %}
+{% include 'footer.njk' %}
+
+
+<script>
+  const swiper = new Swiper("#mySwiper", {
+    spaceBetween: 20,
+    slidesPerView: "auto",
+    // Navigation arrows
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    breakpoints: {
+      1000: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+</script>
