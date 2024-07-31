@@ -79,9 +79,12 @@
       }
       .wrapper {
         header {
-          width: 50vw;
+          padding: 5rem 0 0;
+          width: 70vw;
           display: flex;
           justify-content: center;
+          align-items: center;
+          margin: auto;
           img {
             width: 100%;
           }
@@ -298,7 +301,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 18rem;
       h2 {
         font-size: 3.2rem;
         font-weight: 400;
@@ -362,7 +364,7 @@
     @media (max-width: 700px){
         margin-top: unquote("clamp(-33.5rem, -50vw , -31.5rem)");
       .text-contribua{
-      margin-top: unquote("clamp(4.5rem, 68vw, 42.5rem)");
+      margin-top: unquote("clamp(32rem, 68vw, 42.5rem)");
 
       }
     }
