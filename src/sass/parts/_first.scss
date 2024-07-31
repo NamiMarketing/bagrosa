@@ -5,6 +5,7 @@
     color: $PRETO;
     height: 90vh;
     position: relative;
+    z-index: 1;
 
     > img {
       height: 100%;
@@ -178,6 +179,7 @@
     width: 100vw;
     padding: 12rem 10rem 5rem;
     gap: 14.8rem;
+    z-index: 0;
 
     .wrap-image {
       display: flex;
@@ -301,6 +303,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 32rem;
       h2 {
         font-size: 3.2rem;
         font-weight: 400;
@@ -374,6 +377,7 @@
     display: flex;
     flex-direction: column;
     padding: 13rem 10rem 6.5rem;
+    overflow-x: hidden;
 
     .produtos-texto {
       align-self: flex-end;
@@ -449,7 +453,6 @@
       }
       .swiper {
         padding: 0rem 3rem 7rem;
-        overflow: hidden;
       }
       .swiper-slide {
         width: 12.5rem;
