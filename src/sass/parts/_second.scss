@@ -15,8 +15,7 @@
       h1 {
         color: $GELO;
         font-size: 4.8rem;
-        font-family: font-demi;
-        font-weight: 100;
+        font-weight: 400;
         margin-top: 11rem;
         margin-bottom: 9rem;
       }
@@ -46,8 +45,7 @@
             h4{
                 font-size: 1.8rem;
                 color: $AZUL;
-                font-family: font-bold;
-                font-weight: 100;
+                font-weight: 700;
                 letter-spacing: 0.3rem;
                 text-transform: uppercase;
                 line-height: 2rem;
@@ -55,15 +53,13 @@
 
             h2{
                 font-size: 4.8rem;
-                font-family: font-demi;
                 margin-top: 1.6rem;
-                font-weight: 100;
+                font-weight: 400;
                 width: 54.3rem;
             }
             p{
                 font-size: 2.4rem;
-                font-family: font-book;
-                font-weight: 100;
+                font-weight: 400;
                 width: 54.3rem;
                 margin: 3.7rem 0 5rem;
                 color: #3c3c3c;
@@ -91,8 +87,7 @@
             font-size: 4.8rem;
             display: flex;
             justify-content: center;
-            font-weight: 100;
-            font-family: font-medium;
+            font-weight: 500;
             color: $GELO;
             z-index: 10;
             position: absolute;
@@ -112,8 +107,7 @@
         h4{
             font-size: 1.8rem;
             color: $AZUL;
-            font-family: font-bold;
-            font-weight: 100;
+            font-weight: 700;
             letter-spacing: 0.3rem;
             text-transform: uppercase;
             line-height: 2rem;
@@ -121,16 +115,14 @@
 
         h2{
             font-size: 4.8rem;
-            font-family: font-demi;
             margin-top: 1.6rem;
-            font-weight: 100;
+            font-weight: 600;
             width: 54.3rem;
         }
 
         p{
             font-size: 2.3rem;
-            font-family: font-book;
-            font-weight: 100;
+            font-weight: 400;
             width: 47.8rem;
             color: #3c3c3c;
             margin-bottom: 1.5rem;
@@ -146,15 +138,13 @@
 
         h1{
             font-size: 4.8rem;
-            font-family: font-demi;
-            font-weight: 100;
+            font-weight: 600;
             margin-bottom: 6.4rem;
         }
         p{
             font-size: 2.4rem;
             color: #3C3C3C;
-            font-family: font-book;
-            font-weight: 100;
+            font-weight: 400;
             width: 39.5rem;
             margin-bottom: 6.4rem;
         }
@@ -198,10 +188,10 @@
             margin-bottom: 4rem;
             h4{
                 font-size: 1.6rem;
-                font-family: font-demi;
                 letter-spacing: 0.3rem;
                 text-align: center;
                 margin: 5.3rem auto 0;
+                font-weight: 600;
         }
             h2{
                 font-size: 3.2rem;
@@ -238,8 +228,8 @@
 
         h4{
             font-size: 1.6rem;
-            font-family: font-demi;
             text-align: center;
+            font-weight: 600;
         }
         h2{
             font-size: 3.2rem;
@@ -292,8 +282,8 @@
         padding: 7.3rem 3rem;
         h1{
             font-size: 3.2rem;
-            font-family: font-medium;
             margin-bottom: 2.5rem;
+            font-weight: 500;
             text-align: center;
             width: 90%;
         }
@@ -356,8 +346,7 @@
             h4{
                 font-size: 1.8rem;
                 color: $AZUL;
-                font-family: font-bold;
-                font-weight: 100;
+                font-weight: 700;
                 letter-spacing: 0.3rem;
                 text-transform: uppercase;
                 line-height: 2rem;
@@ -375,8 +364,7 @@
             flex: 1;
             p{
                 font-size: 1.7vw;
-                font-family: font-book;
-                font-weight: 100;
+                font-weight: 400;
                 width: auto;
                 color: #3c3c3c;
                 margin-bottom: 1.5rem;
@@ -414,8 +402,8 @@
         padding: 7.3rem 3rem;
         h1{
             font-size: 3.2rem;
-            font-family: font-medium;
             margin-bottom: 2.5rem;
+            font-weight: 500;
             text-align: center;
             width: 90%;
         }

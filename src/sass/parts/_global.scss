@@ -1,28 +1,12 @@
 @import "./colors";
 
-@font-face {
-  font-family: font-bold;
-  src: url("../../fonts/ITCAvantGardeStd-Bold.otf");
-}
-@font-face {
-  font-family: font-demi;
-  src: url("../../fonts/ITCAvantGardeStd-Demi.otf");
-}
-@font-face {
-  font-family: font-book;
-  src: url("../../fonts/ITCAvantGardeStd-Bk.otf");
-}
-@font-face {
-  font-family: font-medium;
-  src: url("../../fonts/ITCAvantGardeStd-Md.otf");
-}
-
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
 }
 
 :root {
