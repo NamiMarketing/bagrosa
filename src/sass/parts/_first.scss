@@ -367,7 +367,7 @@
     @media (max-width: 700px){
         margin-top: unquote("clamp(-33.5rem, -50vw , -31.5rem)");
       .text-contribua{
-      margin-top: 32rem;
+        margin-top: unquote("clamp(32rem, 93vw , 43rem)");
 
       }
     }
