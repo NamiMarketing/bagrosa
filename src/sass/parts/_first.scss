@@ -364,7 +364,7 @@
     @media (max-width: 700px){
         margin-top: unquote("clamp(-33.5rem, -50vw , -31.5rem)");
       .text-contribua{
-      margin-top: unquote("clamp(32rem, 68vw, 42.5rem)");
+      margin-top: 32rem;
 
       }
     }
@@ -449,6 +449,7 @@
       }
       .swiper {
         padding: 0rem 3rem 7rem;
+        overflow: hidden;
       }
       .swiper-slide {
         width: 12.5rem;
