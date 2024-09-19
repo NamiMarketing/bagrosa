@@ -466,20 +466,21 @@
         }
       }
       .swiper {
-        padding: 0rem 3rem 7rem;
+        padding-bottom: 7rem;
+        width: 90vw;
+        margin: 0;
       }
       .swiper-slide {
-        width: 12.5rem;
-        height: 21.2rem;
-        margin: 0 1.6rem;
+        width: 25rem;
+        height: 18rem;
         img {
-          height: 15.5rem;
+          height: 18rem;
+          width: 100%;
           margin-bottom: 1.2rem;
         }
         span {
           font-size: 1.6rem;
-          text-align: center;
-          display: block;
+          font-weight: 500;
         }
       }
 
