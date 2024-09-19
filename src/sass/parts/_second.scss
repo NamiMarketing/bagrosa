@@ -1,421 +1,404 @@
 @import "./colors";
 @import "./buttons";
 
-.second {
+.clientes {
+  display: flex;
+  flex-direction: column;
+  background: $CINZA;
+  align-items: center;
+  padding-bottom: 14rem;
+
+  h1 {
+    color: $GELO;
+    font-size: 4.8rem;
+    font-weight: 600;
+    margin-top: 11rem;
+    margin-bottom: 12rem;
+  }
+
+  .logos-clientes {
     display: flex;
-    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
 
-    .clientes {
-      display: flex;
-      flex-direction: column;
-      background: $CINZA;
-      align-items: center;
-      padding-bottom: 14rem;
-      
-      h1 {
-        color: $GELO;
-        font-size: 4.8rem;
-        font-weight: 400;
-        margin-top: 11rem;
-        margin-bottom: 9rem;
-      }
-
-      .logos-clientes{
-        display: flex;
-        gap: 5rem;
-        align-items: center;
-
-        img{
-            width: 15rem;
-            height: max-content;
-        }
-      }
-    }
-    .design {
-        display: flex;
-        padding: 5.5rem 10rem;
-        background: $BEGE100;
-        justify-content: space-between;
-
-        .design-texto{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            h4{
-                font-size: 1.8rem;
-                color: $AZUL;
-                font-weight: 700;
-                letter-spacing: 0.3rem;
-                text-transform: uppercase;
-                line-height: 2rem;
-        }
-
-            h2{
-                font-size: 4.8rem;
-                margin-top: 1.6rem;
-                font-weight: 400;
-                width: 54.3rem;
-            }
-            p{
-                font-size: 2.4rem;
-                font-weight: 400;
-                width: 54.3rem;
-                margin: 3.7rem 0 5rem;
-                color: #3c3c3c;
-            }
-    }
-
-    img{
-        width: 48rem;
-        height: 55rem;
-        border-top-left-radius: 150px;
-        object-fit: cover;
-    }
-    }
-    .qualidade {
-        height: 40.7rem;
-        img{
-            width: 100vw;
-            height: 100%;
-            object-fit: cover;
-            filter: brightness(0.5);
-        };
-
-        h1{
-            margin: -23rem auto 20rem;
-            font-size: 4.8rem;
-            display: flex;
-            justify-content: center;
-            font-weight: 500;
-            color: $GELO;
-            z-index: 10;
-            position: absolute;
-            align-self: center;
-            width: 90vw;
-            right: 0;
-            left: 0;
-        }
-    }
-    .diferenciais {
-        display: flex;
-        padding: 10rem 10rem;
-        background: $BEGE100;
-        justify-content: space-between;
-        align-items: flex-start;
-
-        h4{
-            font-size: 1.8rem;
-            color: $AZUL;
-            font-weight: 700;
-            letter-spacing: 0.3rem;
-            text-transform: uppercase;
-            line-height: 2rem;
-        }
-
-        h2{
-            font-size: 4.8rem;
-            margin-top: 1.6rem;
-            font-weight: 600;
-            width: 54.3rem;
-        }
-
-        p{
-            font-size: 2.3rem;
-            font-weight: 400;
-            width: 47.8rem;
-            color: #3c3c3c;
-            margin-bottom: 1.5rem;
-        }
-    }
-    .contato {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 9.3rem 5rem;
-        position: relative;
-
-        h1{
-            font-size: 4.8rem;
-            font-weight: 600;
-            margin-bottom: 6.4rem;
-        }
-        p{
-            font-size: 2.4rem;
-            color: #3C3C3C;
-            font-weight: 400;
-            width: 39.5rem;
-            margin-bottom: 6.4rem;
-        }
-        .branco{
-            border: solid 2px #B6BCA6;
-            height: 20rem;
-            width: 20rem;
-            position: absolute;
-            right: 10rem;
-            bottom: 10rem;
-            border-top-left-radius: 100px;
-        }
-        .azul{
-            height: 20rem;
-            width: 20rem;
-            position: absolute;
-            right: 0rem;
-            bottom: 0rem;
-            border-top-left-radius: 100px;
-            background: $AZUL;
-        }
-    }
-
-    @media screen and (max-width:700px){
-        .design{
-            order: 1;
-            flex-direction: column;
-            padding: 2rem;
-            img{
-                width: 29.8rem;
-                height: 30.3rem;
-                object-fit: cover;
-                margin: auto;
-            }
-        .design-texto{
-            order: 2;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 4rem;
-            h4{
-                font-size: 1.6rem;
-                letter-spacing: 0.3rem;
-                text-align: center;
-                margin: 5.3rem auto 0;
-                font-weight: 600;
-        }
-            h2{
-                font-size: 3.2rem;
-                width: 100%;
-                text-align: center;
-                margin: 1.6rem auto 0;
-            }
-            p{
-                font-size: 1.6rem;
-                width: 80%;
-                margin: 3.7rem auto 3.9rem;
-                text-align: center;
-            }
-    }
-
-    
-        }
-        .qualidade{
-            order: 2;
-            height: 60rem;
-        h1{
-            margin: -36rem auto 20rem;
-            font-size: 3.2rem;
-            text-align: center;
-        }
-        }
-        .diferenciais{
-            order: 3;
-            display: flex;
-            flex-direction: column;
-            padding: 6.5rem 2rem;
-            justify-content: center;
-            align-items: center;
-
-        h4{
-            font-size: 1.6rem;
-            text-align: center;
-            font-weight: 600;
-        }
-        h2{
-            font-size: 3.2rem;
-            width: 80%;
-            text-align: center;
-            margin: 1.6rem auto 0;
-        }
-        .dif-texto{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        p{
-            font-size: 1.5rem;
-            width: 100%;
-            margin: 4rem auto;
-            text-align: center;
-        }
-       
-    }
-        }
-        .clientes{
-            order: 4;
-            align-items: center;
-            justify-content: center;
-            padding:0 2rem 7rem;
-      
-      h1 {
-        font-size: 3.2rem;
-        margin-top: 6.5rem;
-        margin-bottom: 7rem;
-      }
-
-      .logos-clientes{
-        display: flex;
-        gap: 5rem;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        img{
-            width: 13.5rem;
-        }
-      }
-        }
-        .contato{
-            order: 5;
-        align-items: center;
-        justify-content: center;
-        padding: 7.3rem 3rem;
-        h1{
-            font-size: 3.2rem;
-            margin-bottom: 2.5rem;
-            font-weight: 500;
-            text-align: center;
-            width: 90%;
-        }
-        p{
-            font-size: 1.6rem;
-            width: 90%;
-            text-align: center;
-            margin-bottom: 3.6rem;
-        }
-            div{
-                display: none;
-            }
-        }
-    }
-
-    @media screen and (min-width:701px) and (max-width: 1279px){
-        .design{
-        padding: 5.5rem 4rem;
-        gap: 4vw;
-
-        .design-texto{
-            flex: 1;
-            h2{
-                font-size: 3.6vw;
-                width: auto;
-            }
-            p{
-                font-size: 2.4rem;
-                width: auto;
-                margin: 3.7rem 0 3rem;
-            }
-    }
-
-    img{
-        max-width: 35vw;
-        height: 42vw;
-        flex: 1;
-    }
-
-    
-        }
-        .qualidade{
-            order: 2;
-            height: 60rem;
-        h1{
-            margin: -32rem auto 20rem;
-            font-size: 3.2rem;
-            text-align: center;
-        }
-        }
-        .diferenciais{
-            order: 3;
-        padding: 7rem 4rem;
-        gap: 4vw;
-        justify-content: center;
-        align-items: flex-start;
-
-        .dif-titulo{
-            flex: 1;
-            h4{
-                font-size: 1.8rem;
-                color: $AZUL;
-                font-weight: 700;
-                letter-spacing: 0.3rem;
-                text-transform: uppercase;
-                line-height: 2rem;
-            }
-    
-            h2{
-                font-size: 3vw;
-                margin-top: 1.6rem;
-                width: auto;
-            }
-
-        }
-
-        .dif-texto{
-            flex: 1;
-            p{
-                font-size: 1.7vw;
-                font-weight: 400;
-                width: auto;
-                color: #3c3c3c;
-                margin-bottom: 1.5rem;
-            }
-            }
-        }
-        .clientes{
-            order: 4;
-            align-items: center;
-            justify-content: center;
-            padding:0 2rem 7rem;
-      
-      h1 {
-        font-size: 3.2rem;
-        margin-top: 6.5rem;
-        margin-bottom: 7rem;
-      }
-
-      .logos-clientes{
-        display: flex;
-        gap: 5rem;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        img{
-            width: 13.5rem;
-        }
-      }
-        }
-        .contato{
-            order: 5;
-        align-items: center;
-        justify-content: center;
-        padding: 7.3rem 3rem;
-        h1{
-            font-size: 3.2rem;
-            margin-bottom: 2.5rem;
-            font-weight: 500;
-            text-align: center;
-            width: 90%;
-        }
-        p{
-            font-size: 1.6rem;
-            width: 90%;
-            text-align: center;
-            margin-bottom: 3.6rem;
-        }
-            div{
-                display: none;
-            }
-        }
+    img {
+      width: 15rem;
+      height: max-content;
     }
   }
+}
+.design {
+  display: flex;
+  padding: 5.5rem 10rem;
+  background: $BEGE100;
+  justify-content: space-between;
+
+  .design-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h4 {
+      font-size: 1.8rem;
+      color: $AZUL;
+      font-weight: 700;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      line-height: 2rem;
+    }
+
+    h2 {
+      font-size: 4.8rem;
+      margin-top: 1.6rem;
+      font-weight: 600;
+      width: 54.3rem;
+      line-height: 5.7rem;
+    }
+    p {
+      font-size: 2.4rem;
+      font-weight: 300;
+      width: 54.3rem;
+      margin: 3.7rem 0;
+      color: #3c3c3c;
+    }
+  }
+
+  img {
+    width: 48rem;
+    height: 55rem;
+    border-top-left-radius: 150px;
+    object-fit: cover;
+  }
+}
+.qualidade {
+  height: 40.7rem;
+  img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
+
+  h1 {
+    margin: -23rem auto 20rem;
+    font-size: 4.8rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: $GELO;
+    z-index: 10;
+    position: absolute;
+    align-self: center;
+    width: 90vw;
+    right: 0;
+    left: 0;
+  }
+}
+.diferenciais {
+  display: flex;
+  padding: 10rem 10rem;
+  background: $BEGE100;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    width: 54.3rem;
+    line-height: 5.76rem;
+  }
+
+  p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 2.9rem;
+    width: 48rem;
+    color: #3c3c3c;
+    margin-bottom: 1.8rem;
+  }
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 9.3rem 5rem;
+  position: relative;
+
+  h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    margin-bottom: 6.4rem;
+  }
+  p {
+    font-size: 2.4rem;
+    color: #3c3c3c;
+    font-weight: 300;
+    width: 39.5rem;
+    margin-bottom: 6.4rem;
+    text-align: center;
+  }
+  .branco {
+    border: solid 2px #b6bca6;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    right: 10rem;
+    bottom: 10rem;
+    border-top-left-radius: 100px;
+  }
+  .azul {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    border-top-left-radius: 100px;
+    background: $AZUL;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .design {
+    order: 1;
+    flex-direction: column;
+    padding: 2rem;
+    img {
+      width: 29.8rem;
+      height: 30.3rem;
+      object-fit: cover;
+      margin: auto;
+    }
+    .design-texto {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 4rem;
+      h4 {
+        font-size: 1.6rem;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        margin: 5.3rem auto 0;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 3.2rem;
+        width: 100%;
+        text-align: center;
+        margin: 1.6rem auto 0;
+      }
+      p {
+        font-size: 1.6rem;
+        width: 80%;
+        margin: 3.7rem auto 3.9rem;
+        text-align: center;
+      }
+    }
+  }
+  .qualidade {
+    order: 2;
+    height: 60rem;
+    h1 {
+      margin: -36rem auto 20rem;
+      font-size: 3.2rem;
+      text-align: center;
+    }
+  }
+  .diferenciais {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 6.5rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+      font-size: 1.6rem;
+      text-align: center;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 3.2rem;
+      width: 80%;
+      text-align: center;
+      margin: 1.6rem auto 0;
+    }
+    .dif-texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 4rem auto;
+        text-align: center;
+      }
+    }
+  }
+  .clientes {
+    order: 4;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 7rem;
+
+    h1 {
+      font-size: 3.2rem;
+      margin-top: 6.5rem;
+      margin-bottom: 7rem;
+    }
+
+    .logos-clientes {
+      display: flex;
+      gap: 5rem;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        width: 13.5rem;
+      }
+    }
+  }
+  .contato {
+    order: 5;
+    align-items: center;
+    justify-content: center;
+    padding: 7.3rem 3rem;
+    h1 {
+      font-size: 3.2rem;
+      margin-bottom: 2.5rem;
+      font-weight: 500;
+      text-align: center;
+      width: 90%;
+    }
+    p {
+      font-size: 1.6rem;
+      width: 90%;
+      text-align: center;
+      margin-bottom: 3.6rem;
+    }
+    div {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1279px) {
+  .design {
+    padding: 5.5rem 4rem;
+    gap: 4vw;
+
+    .design-texto {
+      flex: 1;
+      h2 {
+        font-size: 3.6vw;
+        width: auto;
+      }
+      p {
+        font-size: 2.4rem;
+        width: auto;
+        margin: 3.7rem 0 3rem;
+      }
+    }
+
+    img {
+      max-width: 35vw;
+      height: 42vw;
+      flex: 1;
+    }
+  }
+  .qualidade {
+    order: 2;
+    height: 60rem;
+    h1 {
+      margin: -32rem auto 20rem;
+      font-size: 3.2rem;
+      text-align: center;
+    }
+  }
+  .diferenciais {
+    order: 3;
+    padding: 7rem 4rem;
+    gap: 4vw;
+    justify-content: center;
+    align-items: flex-start;
+
+    .dif-titulo {
+      flex: 1;
+      h4 {
+        font-size: 1.8rem;
+        color: $AZUL;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        line-height: 2rem;
+      }
+
+      h2 {
+        font-size: 3vw;
+        margin-top: 1.6rem;
+        width: auto;
+      }
+    }
+
+    .dif-texto {
+      flex: 1;
+      p {
+        font-size: 1.7vw;
+        font-weight: 400;
+        width: auto;
+        color: #3c3c3c;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  .clientes {
+    order: 4;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 7rem;
+
+    h1 {
+      font-size: 3.2rem;
+      margin-top: 6.5rem;
+      margin-bottom: 7rem;
+    }
+
+    .logos-clientes {
+      display: flex;
+      gap: 5rem;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        width: 13.5rem;
+      }
+    }
+  }
+  .contato {
+    order: 5;
+    align-items: center;
+    justify-content: center;
+    padding: 7.3rem 3rem;
+    h1 {
+      font-size: 3.2rem;
+      margin-bottom: 2.5rem;
+      font-weight: 500;
+      text-align: center;
+      width: 90%;
+    }
+    p {
+      font-size: 1.6rem;
+      width: 90%;
+      text-align: center;
+      margin-bottom: 3.6rem;
+    }
+    div {
+      display: none;
+    }
+  }
+}

@@ -3,22 +3,22 @@
 .valorize {
     background: $BEGE100;
     color: $PRETO;
-    height: 90vh;
+    height: 85vh;
     position: relative;
     z-index: 1;
 
     > img {
       height: 100%;
-      width: 50vw;
+      width: 45%;
       position: absolute;
       right: 0;
       top: 0;
-      border-bottom-left-radius: 100px;
+      border-bottom-left-radius: 200px;
       object-fit: cover;
       z-index: 0;
     }
     header {
-      width: 50vw;
+      width: 55%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -31,9 +31,9 @@
         gap: 2.3rem;
 
         li {
-          font-size: 1.7rem;
+          font-size: 1.6rem;
           line-height: 14.4px;
-          font-weight: 500;
+          font-weight: 300;
         }
       }
     }
@@ -42,12 +42,12 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 23rem;
-      left: 19rem;
-      width: 84.7rem;
+      top: 45%;
+      left: 8%;
+      width: 58rem;
       h1 {
-        font-size: 6.8rem;
-        letter-spacing: 0.1rem;
+        font-size: 5.2rem;
+        line-height: 5.2rem;
         font-weight: 500;
         z-index: 2;
       }
@@ -55,12 +55,12 @@
         font-weight: 700;
       }
       p {
-        font-size: 2rem;
-        line-height: 2.4rem;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
         text-align: left;
-        width: 29rem;
+        width: 35rem;
         margin-top: 2.5rem;
-        font-weight: 400;
+        font-weight: 300;
       }
     }
 
@@ -175,8 +175,8 @@
   .contribua-desktop {
     display: flex;
     background: $CINZA;
-    height: 789px;
-    width: 100vw;
+    height: 82rem;
+    width: 100%;
     padding: 12rem 10rem 5rem;
     gap: 14.8rem;
     z-index: 0;
@@ -190,8 +190,8 @@
       h2 {
         font-size: 4.8rem;
         color: $GELO;
-        font-weight: 400;
-        line-height: 100%;
+        font-weight: 600;
+        line-height: 5.7rem;
       }
       img {
         width: 50.2rem;
@@ -209,20 +209,19 @@
       padding-top: 1.3rem;
 
       p {
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: $GELO;
-        font-weight: 400;
-        margin-bottom: 9.2rem;
-
-        span {
-          font-size: 1.6rem;
-          text-transform: uppercase;
-          font-weight: 700;
-          letter-spacing: 0.3rem;
-          color: $MUSGO;
-        }
+        font-weight: 300;
+        margin-bottom: 2rem;
       }
-
+      span {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        color: $MUSGO;
+        margin-bottom: 9rem;
+      }
       .itens {
         display: flex;
         flex-direction: column;
@@ -236,7 +235,7 @@
         }
         h4 {
           font-size: 2rem;
-          font-weight: 400;
+          font-weight: 300;
           line-height: 2.4rem;
           color: $GELO;
         }
@@ -376,6 +375,7 @@
     background: $BEGE;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 13rem 10rem 6.5rem;
     overflow-x: hidden;
 
@@ -393,28 +393,34 @@
       h2 {
         color: $PRETO;
         font-size: 4.8rem;
-        font-weight: 500;
-        width: 41rem;
+        font-weight: 600;
+        line-height: 5.7rem;
+        width: 49rem;
         text-align: right;
       }
     }
     .swiper {
-      padding: 0rem 3rem 11rem;
+      padding-bottom: 11rem;
+      width: 90vw;
+      margin: 0;
     }
     .swiper-slide {
-      width: 20rem;
-      height: 30rem;
-      margin: 0 2.4rem;
+      width: 60rem;
+      height: 40rem;
+      margin: 0;
       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       img {
-        height: 24rem;
+        height: 40rem;
         width: 100%;
         margin-bottom: 1.4rem;
         border-radius: 10px;
       }
       span {
-        font-size: 2.4rem;
+        font-size: 3rem;
         color: $AZUL;
         font-weight: 500;
       }
@@ -422,11 +428,19 @@
 
     p {
       align-self: center;
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       text-align: center;
-      font-weight: 400;
-      width: 65.4rem;
+      font-weight: 300;
+      width: 61rem;
       margin-bottom: 5.4rem;
+      color: #3c3c3c;
+    }
+    h4{
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 3.2rem;
+      margin-bottom: 6rem;
+      color: #3c3c3c;
     }
     button {
       align-self: center;
