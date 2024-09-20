@@ -74,7 +74,7 @@
       justify-content: start;
       gap: 9vw;
       > img {
-        width: 100vw;
+        width: 100%;
         max-height: 50rem;
         position: initial;
       }
@@ -87,7 +87,7 @@
           align-items: center;
           margin: auto;
           img {
-            width: 100%;
+            width: 70%;
           }
           ul {
             display: none;
@@ -103,18 +103,18 @@
         margin: 0 auto;
 
         h1 {
-          font-size: 6vw;
-          letter-spacing: 0.1rem;
+          font-size: 7.4vw;
+          letter-spacing: -1.5%;
           font-weight: 500;
           text-align: center;
-        }
-        strong {
-          font-weight: 700;
+          line-height: 3.6rem;
+          margin-top: 7rem;
         }
         p {
-          font-size: 4vw;
+          font-size: 3.7vw;
           text-align: center;
-          margin-bottom: 2vw;
+          margin-bottom: 4vw;
+          width: 80%;
         }
       }
     }
@@ -304,28 +304,31 @@
       justify-content: center;
       margin-top: 32rem;
       h2 {
-        font-size: 3.2rem;
-        font-weight: 400;
+        font-size: 3rem;
+        font-weight: 600;
         color: $GELO;
         text-align: center;
         max-width: 70%;
+        line-height: 3.4rem;
       }
       p {
         font-size: 1.6rem;
-        font-weight: 400;
+        font-weight: 300;
         color: $GELO;
         text-align: center;
         max-width: 80%;
         margin-top: 2.5rem;
+        line-height: 2.2rem;
       }
       span {
         text-transform: uppercase;
         display: block;
-        font-weight: 400;
+        line-height: 1.9rem;
+        font-weight: 600;
         color: $MUSGO;
         letter-spacing: 0.27rem;
         max-width: 80%;
-        margin: 0 auto 5.5rem;
+        margin: 2rem auto 3.5rem;
       }
     }
 
@@ -341,24 +344,25 @@
       .itens {
         display: flex;
         flex-direction: column;
-        gap: 3.6rem;
-        margin: 5.5rem auto 3.7rem;
+        gap: 4rem;
+        margin: 5.5rem auto 4rem;
         .item {
           display: flex;
           flex-direction: column;
           gap: 1rem;
           text-align: center;
-          max-width: 60%;
+          max-width: 75%;
           margin: auto;
           h3 {
             color: $GELO;
             font-size: 2rem;
-            font-weight: 400;
+            font-weight: 700;
           }
           h4 {
             color: $GELO;
             font-size: 1.6rem;
-            font-weight: 500;
+            font-weight: 300;
+            line-height: 2.2rem;
           }
         }
       }
@@ -441,6 +445,7 @@
       line-height: 3.2rem;
       margin-bottom: 6rem;
       color: #3c3c3c;
+      text-align: center;
     }
     button {
       align-self: center;
@@ -456,13 +461,14 @@
         h3 {
           font-size: 1.6rem;
           text-align: center;
-          font-weight: 500;
+          font-weight: 600;
         }
         h2 {
-          font-size: 3.2rem;
+          font-size: 2.8rem;
           width: 75%;
           text-align: center;
           margin: 1.6rem auto 0;
+          line-height: 3.4rem;
         }
       }
       .swiper {
@@ -487,6 +493,13 @@
       p {
         font-size: 1.6rem;
         width: 70%;
+        line-height: 2.2rem;
+        margin-bottom: 2.7rem;
+      }
+      h4{
+        font-size: 1.6rem;
+        margin-bottom: 2.7rem;
+
       }
     }
 
