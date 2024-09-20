@@ -4,36 +4,35 @@
     background: $BEGE100;
     color: $PRETO;
     height: 85vh;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    z-index: 1;
-
     > img {
       height: 100%;
-      width: 45%;
-      position: absolute;
-      right: 0;
-      top: 0;
       border-bottom-left-radius: 200px;
       object-fit: cover;
       z-index: 0;
     }
-    header {
-      width: 55%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5rem 8rem 0 5rem;
-
-      ul {
+    .wrapper{
+      width: 100%;
+      nav {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 2.3rem;
-
-        li {
-          font-size: 1.6rem;
-          line-height: 14.4px;
-          font-weight: 300;
+        padding: 5rem 8rem 0 5rem;
+  
+        ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 2.3rem;
+  
+          li {
+            font-size: 1.6rem;
+            line-height: 14.4px;
+            font-weight: 300;
+          }
         }
       }
     }
@@ -77,11 +76,12 @@
         width: 100%;
         max-height: 50rem;
         position: initial;
+        border-bottom-left-radius: 100px;
       }
       .wrapper {
-        header {
+        nav {
           padding: 5rem 0 0;
-          width: 70vw;
+          width: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -179,7 +179,6 @@
     width: 100%;
     padding: 12rem 10rem 5rem;
     gap: 14.8rem;
-    z-index: 0;
 
     .wrap-image {
       display: flex;
@@ -292,9 +291,9 @@
   .contribua-mobile {
     display: flex;
     flex-direction: column;
-    margin-top: -10rem;
     background: $CINZA;
     align-items: center;
+    margin-top: -12rem;
     padding-bottom: 5.7rem;
 
     .text-contribua {
@@ -302,7 +301,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 32rem;
+      margin-top: 17rem;
       h2 {
         font-size: 3rem;
         font-weight: 600;
@@ -365,13 +364,6 @@
             line-height: 2.2rem;
           }
         }
-      }
-    }
-    @media (max-width: 700px){
-        margin-top: unquote("clamp(-33.5rem, -50vw , -31.5rem)");
-      .text-contribua{
-        margin-top: unquote("clamp(32rem, 93vw , 43rem)");
-
       }
     }
   }
