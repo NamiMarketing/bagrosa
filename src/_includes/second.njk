@@ -1,11 +1,31 @@
 <section class="clientes" id="clientes">
   <h1>Nossos Clientes</h1>
-  <div class="logos-clientes">
-    <img src="../../img/logos-clientes/hafele.png" alt="" />
-    <img src="../../img/logos-clientes/delatorre.png" alt="" />
-    <img src="../../img/logos-clientes/eletromar.png" alt="" />
-    <img src="../../img/logos-clientes/mectronic.png" alt="" />
-  </div>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide"> <img src="../../img/logos-clientes/1.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/2.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/3.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/4.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/5.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/6.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/7.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/8.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/9.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/10.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/11.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/12.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/13.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/14.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/15.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/16.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/17.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/18.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/19.png" alt="" /></li>
+          <li class="glide__slide"> <img src="../../img/logos-clientes/20.png" alt="" /></li>
+        </ul>
+      </div>
+    </div>
 </section>
 <section class="design">
   <div class="design-texto">
@@ -43,3 +63,17 @@
   <div class="branco"></div>
   <div class="azul"></div>
 </section>
+
+<script>
+const config = {
+  type: "carousel",
+  perView: 4,
+  startAt: 2,
+  focusAt: 'center',
+  autoplay: true,
+  hoverpause: true,
+  animationDuration: 2000,
+  loop: true
+};
+new Glide(".glide", config).mount();
+</script>

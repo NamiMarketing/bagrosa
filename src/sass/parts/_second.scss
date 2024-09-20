@@ -6,23 +6,23 @@
   flex-direction: column;
   background: $CINZA;
   align-items: center;
-  padding-bottom: 14rem;
+  padding-bottom: 13rem;
 
   h1 {
     color: $GELO;
     font-size: 4.8rem;
     font-weight: 600;
-    margin-top: 11rem;
-    margin-bottom: 12rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
   }
 
-  .logos-clientes {
-    display: flex;
-    gap: 5rem;
-    align-items: center;
-
+  .glide {
+    ul{
+      display: flex;
+      align-items: center;
+    }
     img {
-      width: 15rem;
+      width: 19rem;
       height: max-content;
     }
   }
@@ -250,15 +250,14 @@
       margin-bottom: 7rem;
     }
 
-    .logos-clientes {
-      display: flex;
-      gap: 5rem;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: center;
-
+    .glide {
+      ul{
+        display: flex;
+        align-items: center;
+      }
       img {
-        width: 13.5rem;
+        width: 8rem;
+        height: max-content;
       }
     }
   }
