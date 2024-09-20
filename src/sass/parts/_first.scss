@@ -69,7 +69,7 @@
       flex-direction: column;
       align-items: center;
       background: linear-gradient(#d6d1c980 60%, white);
-      height: 100vh;
+      height: auto;
       justify-content: start;
       gap: 9vw;
       > img {
@@ -301,7 +301,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 25rem;
+      margin-top: 28rem;
       h2 {
         font-size: 3rem;
         font-weight: 600;
